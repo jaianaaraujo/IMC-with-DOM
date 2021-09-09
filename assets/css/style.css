@@ -1,0 +1,74 @@
+/* GOOGLE FONTES */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* PADRONIZAÇÃO DE CORES */
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+/* ******* UNIVERSAL ********  */
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+/* ********** BODY ********* */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  background-image: url("https://revistaviver.com.br/wp-content/uploads/2017/03/exercicios_8-beneficios-das-atividades-fisias-Cia-Athletica-SLIDER.jpg");
+}
+
+/* ************  FORMULÁRIO ************ */
+.container { /* Class que tem o input */
+  max-width: 640px;
+  margin: 50px auto; /* Para centralizar */
+  background: rgba(0, 0, 0, 0.424);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%; /* 100% referente ao tamanho da class container */
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px; /* altura do input */
+  padding: 0 20px;
+}
+
+form input:focus { /* FOCUS - usado para selecionar o elemento que está em foco. */
+  outline: 1px solid var(--primary-color); /* OUTLINE - é a borda que fica em volta do input */
+}                                          /* Nesse caso, estou utilizando o focus para criar um efeito de focalizar com outra cor o outline ao clicar no input */
+
+/* **************  BOTÃO *********** */
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.paragrafo-resultado, .bad {
+  background: rgb(109, 255, 182);
+  padding: 10px 20px;
+}
+
+.bad {
+  background: rgb(255, 150, 150);
+}

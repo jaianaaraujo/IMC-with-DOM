@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ÂNCORA COM JS -->
+    <script src="./assets/js/main.js"></script>
+    <!-- ÂNCORA COM O CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tabela IMC</title>
+</head>
+<body>
+    <!-- ********* CONTAINER ***********  -->
+    <section class="container"> 
+<h1>Calcule o seu IMC</h1>                
+
+
+    <!-- ********* FORMULÁRIO *********** -->
+<form action=""  id="formulario" method="POST">    <!-- METHOD, é como esses dados serão processados. POST é usado para enviar dados a um servidor para criar / atualizar um recurso. -->
+                                              <!-- O ACTION, serve para definir a rota que os dados do formulário serão processados -->
+<label for="peso">Peso</label>                <!-- O FOR associa a tag label com o ID do input -->
+<input type="text" id="peos" name="peso">     <!-- NAME é bastante utilizado no backend -->
+
+<label for="altura">Altura</label>
+<input type="text" id="altura" name="altura">
+
+<!-- ************* BOTÃO *************  -->
+
+<button type="submit">ENVIAR</button>
+
+<!-- ************ FINAL DO FORM E SECTION/CONTAINER ******** -->
+</form>
+    </section> 
+
+<div id="resultado"></div>
+
+</body>
+</html>
