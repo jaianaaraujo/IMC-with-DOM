@@ -3,9 +3,9 @@
 ##
 
 <p> I used some methods, such as: </p>
-💡 e.target.querySelector();
-💡 document.querySelector();
-💡 addEventListener();
-💡 document.createElement();
-💡 classList.add();
+<p> 💡 e.target.querySelector();  </p>
+<p> 💡 document.querySelector();  </p>
+<p> 💡 addEventListener();  </p>
+<p> 💡 document.createElement(); </p>
+<p> 💡 classList.add(); </p>
 
