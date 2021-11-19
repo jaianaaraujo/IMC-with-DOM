@@ -9,7 +9,7 @@
 <p> 💡 document.createElement(); </p>
 <p> 💡 classList.add(); </p>
 
-<h4> Link: https://lnkd.in/epP7wumE <h4>
+<h4> 🖌 Link: https://lnkd.in/epP7wumE <h4>
 
  #
   
